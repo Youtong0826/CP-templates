@@ -3,7 +3,7 @@
 using namespace std;
 
 const int maxn = 2e5;
-int n, bit[maxn], bit2[maxn];
+int n, bit[maxn];
 
 void update(int i, int v){
     for (; i <= n; i += lowbit(i))
@@ -21,14 +21,4 @@ int query(int i){
         sum += bit[i];
 
     return sum;
-}
-
-int main(){
-    n = 5;
-    // int data[5] = {1, 2, 3, 4, 5};
-    // for (int i = 0; i < n; i++)
-    //     update(i+1, i+1, data[i]);
-
-    // for (int i = 1; i <= n; i++)
-    //     cout << query(i) << '\n';
 }
