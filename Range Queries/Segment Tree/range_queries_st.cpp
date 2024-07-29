@@ -5,8 +5,6 @@ struct node {
     int l, r, val;
 };
 
-
-
 struct seg_tree {
     int n;
     vector<int> v;    
