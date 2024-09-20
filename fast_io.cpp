@@ -17,7 +17,7 @@ long long readint(){
     char c = '0';
     while (c >= '0' && c <= '9'){
         a = (a << 3) + (a << 1) + c - '0';
-        c = getchar();
+        c = getc();
     }
     return a;
 }
