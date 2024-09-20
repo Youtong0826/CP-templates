@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #define pii pair<int,int>
-#define pb(x) emplace_back(x)
+#define pb emplace_back
 #define sz(x) (int) x.size()
 #define all(x) x.begin(), x.end()
 #define Youtong ios::sync_with_stdio(0); cin.tie(0); cout.tie(0)
